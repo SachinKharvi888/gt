@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gt">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GT">
+        <activity
+            android:name=".GrpEdit"
+            android:exported="false" />
+        <activity
+            android:name=".creategrp"
+            android:exported="false" />
+        <activity
+            android:name=".addgrup"
+            android:exported="false" />
+        <activity
+            android:name=".grp"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="false"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/Theme.GT.NoActionBar" />
+        <activity
+            android:name=".FrdlistActiviy"
+            android:exported="false"
+            android:label="@string/title_activity_frdlist_activiy"
+            android:theme="@style/Theme.GT.NoActionBar" />
+        <activity
+            android:name=".Feedback"
+            android:exported="false" />
+        <activity
+            android:name=".mainMusic"
+            android:exported="false" />
+        <activity
+            android:name=".music"
+            android:exported="false" />
+        <activity
+            android:name=".MusicPlayer"
+            android:exported="false" />
+        <activity
+            android:name=".PersonalInfoOther"
+            android:exported="false" />
+        <activity
+            android:name=".PersonalActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".postAndSaveActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".addPost"
+            android:exported="false" />
+        <activity
+            android:name=".PostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".groupChat"
+            android:exported="false" />
+        <activity
+            android:name=".otherProfile"
+            android:exported="false" />
+        <activity
+            android:name=".PasswordResetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MessageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".launchActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

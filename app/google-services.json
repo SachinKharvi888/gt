@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "602168577641",
+    "firebase_url": "https://gtapp-9859a-default-rtdb.firebaseio.com",
+    "project_id": "gtapp-9859a",
+    "storage_bucket": "gtapp-9859a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602168577641:android:65a3be90fae05004b71cf8",
+        "android_client_info": {
+          "package_name": "com.example.gt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602168577641-mms8faq4qd79ce0hg3b09f0o1f1aikqa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gt",
+            "certificate_hash": "b87cae6b8c7ee38d0a110011425bc48dedc19197"
+          }
+        },
+        {
+          "client_id": "602168577641-b8j1rs7f2553acnf2so8rv0vguac882e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANJQ9kBumTK0dZkU25frfso_exo4tke58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602168577641-b8j1rs7f2553acnf2so8rv0vguac882e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
