@@ -92,19 +92,12 @@ public class Grpfrdlistadapter extends RecyclerView.Adapter<Grpfrdlistadapter.Vi
         holder.addtogrp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                DatabaseReference reference = FirebaseDatabase.getInstance().getReference("grp1");
-                    reference.addValueEventListener(new ValueEventListener() {
-                    @Override
-                    public void onDataChange(@NonNull DataSnapshot snapshot) {
 
                        FirebaseDatabase.getInstance().getReference("grp1").child(grpid).child("user")
                                 .child(user.getId()).setValue(true);
-                    }
-                    @Override
-                    public void onCancelled(@NonNull DatabaseError error) {
+                FirebaseDatabase.getInstance().getReference("mygrp").child(user.getId())
+                        .child(grpid).setValue(true);
 
-                    }
-                });
             }
         });
 
@@ -116,6 +109,8 @@ public class Grpfrdlistadapter extends RecyclerView.Adapter<Grpfrdlistadapter.Vi
                         .child(user.getId()).removeValue();
 
 
+                FirebaseDatabase.getInstance().getReference("mygrp").child(user.getId())
+                        .child(grpid).removeValue();
             }
         });
     }
